@@ -1,0 +1,32 @@
+SONIDOS DEL JUEGO
+=================
+
+Poné acá los archivos de audio (.ogg, .wav o .mp3).
+El nombre del archivo es lo que importa. Si un archivo no está, ese sonido simplemente no suena.
+
+MÚSICA
+  musica_menu.mp3     suena en el menú de inicio, en bucle, y se apaga al empezar a jugar
+  musica_juego.mp3    suena durante el juego (en bucle, también en diálogos y mochila)
+
+  Elevator music for Aliens - Restless Party track 1.mp3
+                      suena en el mercado (en bucle); al salir vuelve musica_juego
+                      (las escenas con música propia se configuran en MUSICA_ESCENA, en kepler/estados/jugando.py)
+  Alien Music.mp3     suena adentro de la mina (la cueva de cristales, en bucle)
+  Cornfield Chase - Hans Zimmer - Best Part.mp3
+                      suena en la plataforma de lanzamiento, la zona de despegue (en bucle)
+  Pokémon Omega Ruby & Alpha Sapphire - Cobalion, Virizion & Terrakion Battle Music (HQ).mp3
+                      suena en la playa solo mientras la mercader sigue acorralada por el perro;
+                      cuando el perro se va, vuelve musica_juego
+
+EFECTOS
+  intro_choque.mp3    frenada y choque de la cápsula en la animación de inicio
+                      (el golpe está a los ~3,2 s del audio y se sincroniza con el impacto)
+
+VOCES (suenan en BUCLE mientras dura la charla con ese personaje, y paran cuando termina)
+  voz_minero.mp3      el alien minero (el del pico)
+  voz_mercader        el alien mercader
+  voz_r_7             el robot R-7
+  voz_consola         la consola del cohete
+
+Si querés más sonidos (pasos, abrir la heladera, comprar el boleto, la caída de la intro...),
+decime el nombre y la situación y lo conecto.

@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+kepler/ajustes.json
+respaldo_arte_antes_16bits/
+*.xlsx
